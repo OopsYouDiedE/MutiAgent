@@ -1,7 +1,9 @@
+'''
+memory list
+时间戳，记忆剩余时间
+记忆内容
 
+'''
 from pydantic import BaseModel
-class ActionMemory(BaseModel):
-    short_memory_list=[
-
-    ]
+class Memory:
 

@@ -9,7 +9,7 @@ reflect:一些短时记忆的结合。
 长时记忆：能够维持很长时间的记忆。包括以下几种。
 event：对一段行为的抽象为一个动作。
 fact：对一段事实的记忆。
-action_list：完成一件事的流程。
+action_list：完成一件事的流程。(不管）
 '''
 from pydantic import BaseModel
 
@@ -18,9 +18,8 @@ class MemoryManager:
     '''
     导入记忆，导出记忆，检索记忆，总结记忆。
     要不要把记忆分开存储？答案：是。
-
     '''
-
+    def memory_list
     def __init__(self, memory_path=None):
         pass
 
