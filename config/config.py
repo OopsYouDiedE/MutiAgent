@@ -1,7 +1,7 @@
 class Config:
     OPENAI_API_BASE = 'https://api.openai.com/v1'
     OPENAI_PROXY = 'http://127.0.0.1:7000'
-    OPENAI_API_KEY = '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'
+    OPENAI_API_KEY = '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'
     DEFAULT_OPENAI_MODEL = 'gpt-3.5-turbo-0613'
 
 
@@ -31,3 +31,7 @@ class ConfigForMemory:
                    ['剑魔给唐三倒了一杯美酒作为奖励', 38, 8],
                    ['唐三和剑魔举杯庆祝', 40, 7],
                    ['唐三因此结识了许多新朋友', 45, 6]]
+    SHORT_MEMORY_MAX_NUM=7
+    BASE_IMPORTANCE =[
+
+    ]

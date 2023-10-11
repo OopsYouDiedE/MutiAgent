@@ -1,6 +1,9 @@
 import openai
 from config.config import Config, ConfigForChatgptKwangs
 from loguru import logger
+import json
+
+from utils.prompt_helper import base_kwargs
 
 
 def openai_llm(messages: str = None,
@@ -19,8 +22,11 @@ def openai_llm(messages: str = None,
 
         **kwargs
     )
-    return completion
+    return completion['choices'][0]['message']['content']
 
+
+def to_json(output: str):
+    return  json.loads(output)
 
 if __name__ == '__main__':
     logger.info(openai_llm(kwargs=ConfigForChatgptKwangs.TEST_KWANGS))
