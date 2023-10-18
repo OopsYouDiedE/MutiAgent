@@ -1,0 +1,149 @@
+2023-10-16 21:32:59.381 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 21:34:54.791 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 21:35:33.550 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 21:39:29.456 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 21:42:49.989 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 21:43:50.163 | DEBUG    | metagpt.provider.spark_api:completion:93 - None
+2023-10-16 21:49:23.464 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 21:49:23.590 | DEBUG    | metagpt.provider.spark_api:on_open:166 - on_open
+2023-10-16 21:50:23.589 | DEBUG    | metagpt.provider.spark_api:on_error:145 - on_error
+2023-10-16 21:50:23.594 | DEBUG    | metagpt.provider.spark_api:completion:93 - None
+2023-10-16 21:51:23.586 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 21:51:23.712 | DEBUG    | metagpt.provider.spark_api:on_open:165 - on_open
+2023-10-16 21:52:17.884 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 21:52:18.034 | DEBUG    | metagpt.provider.spark_api:on_open:165 - on_open
+2023-10-16 21:53:18.028 | DEBUG    | metagpt.provider.spark_api:on_error:145 - on_error
+2023-10-16 21:53:18.029 | DEBUG    | metagpt.provider.spark_api:completion:93 - None
+2023-10-16 21:55:42.321 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 21:56:42.460 | DEBUG    | metagpt.provider.spark_api:completion:93 - None
+2023-10-16 22:13:44.405 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:13:44.561 | INFO     | metagpt.provider.spark_api:send:187 - 开始尝试建立通讯...
+2023-10-16 22:13:44.561 | INFO     | metagpt.provider.spark_api:send:188 - 此次请求的请求头数据为：{"header": {"app_id": 45719253, "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:13:44.589 | DEBUG    | metagpt.provider.spark_api:on_message:102 - {"header":{"code":10004,"message":"SchemaCheckError:(22:14:03.134) '$.header.app_id' Invalid type, expected: string , given: float64; ","sid":"cid000b9538@dx18b38d63061b894540","status":2}}
+2023-10-16 22:13:44.790 | CRITICAL | metagpt.provider.spark_api:on_message:108 - 回答获取失败，响应信息反序列化之后为： {'header': {'code': 10004, 'message': "SchemaCheckError:(22:14:03.134) '$.header.app_id' Invalid type, expected: string , given: float64; ", 'sid': 'cid000b9538@dx18b38d63061b894540', 'status': 2}}
+2023-10-16 22:14:44.781 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:14:44.898 | INFO     | metagpt.provider.spark_api:send:187 - 开始尝试建立通讯...
+2023-10-16 22:14:44.898 | INFO     | metagpt.provider.spark_api:send:188 - 此次请求的请求头数据为：{"header": {"app_id": "45719253", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:14:44.923 | DEBUG    | metagpt.provider.spark_api:on_message:102 - {"header":{"code":11200,"message":"AppIdNoAuthError:(22:15:03.470) tokens.total","sid":"cht000ba25e@dx18b38d71c2db81c540","status":2}}
+2023-10-16 22:14:45.125 | CRITICAL | metagpt.provider.spark_api:on_message:108 - 回答获取失败，响应信息反序列化之后为： {'header': {'code': 11200, 'message': 'AppIdNoAuthError:(22:15:03.470) tokens.total', 'sid': 'cht000ba25e@dx18b38d71c2db81c540', 'status': 2}}
+2023-10-16 22:16:52.238 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:16:52.356 | INFO     | metagpt.provider.spark_api:send:187 - 开始尝试建立通讯...
+2023-10-16 22:16:52.357 | INFO     | metagpt.provider.spark_api:send:188 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:16:52.671 | DEBUG    | metagpt.provider.spark_api:on_message:102 - {"header":{"code":0,"message":"Success","sid":"cht000bae62@dx18b38d90e12b81c540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:16:52.883 | DEBUG    | metagpt.provider.spark_api:on_message:102 - {"header":{"code":0,"message":"Success","sid":"cht000bae62@dx18b38d90e12b81c540","status":2},"payload":{"choices":{"status":2,"seq":1,"text":[{"content":"。","role":"assistant","index":0}]},"usage":{"text":{"question_tokens":17,"prompt_tokens":27,"completion_tokens":3,"total_tokens":30}}}}
+2023-10-16 22:17:49.592 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:17:49.738 | INFO     | metagpt.provider.spark_api:send:187 - 开始尝试建立通讯...
+2023-10-16 22:17:49.738 | INFO     | metagpt.provider.spark_api:send:188 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:17:50.062 | INFO     | metagpt.provider.spark_api:on_message:102 - {"header":{"code":0,"message":"Success","sid":"cht000bb15d@dx18b38d9ee3bb8f3540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:17:50.296 | INFO     | metagpt.provider.spark_api:on_message:102 - {"header":{"code":0,"message":"Success","sid":"cht000bb15d@dx18b38d9ee3bb8f3540","status":2},"payload":{"choices":{"status":2,"seq":1,"text":[{"content":"。","role":"assistant","index":0}]},"usage":{"text":{"question_tokens":17,"prompt_tokens":27,"completion_tokens":3,"total_tokens":30}}}}
+2023-10-16 22:21:58.202 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:21:58.324 | INFO     | metagpt.provider.spark_api:send:159 - 开始尝试建立通讯...
+2023-10-16 22:21:58.324 | INFO     | metagpt.provider.spark_api:send:160 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:21:58.626 | INFO     | metagpt.provider.spark_api:on_message:103 - {"header":{"code":0,"message":"Success","sid":"cht000bc990@dx18b38ddb947b81c540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:21:59.064 | INFO     | metagpt.provider.spark_api:on_message:117 - 本次通讯关闭
+2023-10-16 22:23:24.914 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:23:25.033 | INFO     | metagpt.provider.spark_api:send:159 - 开始尝试建立通讯...
+2023-10-16 22:23:25.033 | INFO     | metagpt.provider.spark_api:send:160 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:23:25.334 | INFO     | metagpt.provider.spark_api:on_message:103 - {"header":{"code":0,"message":"Success","sid":"cht000bc96f@dx18b38df0bfdb894540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:23:25.814 | INFO     | metagpt.provider.spark_api:on_message:117 - 本次通讯关闭
+2023-10-16 22:28:51.325 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:28:51.468 | INFO     | metagpt.provider.spark_api:send:160 - 开始尝试建立通讯...
+2023-10-16 22:28:51.468 | INFO     | metagpt.provider.spark_api:send:161 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:28:51.770 | INFO     | metagpt.provider.spark_api:on_message:104 - {"header":{"code":0,"message":"Success","sid":"cht000be4cb@dx18b38e40727b894540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:28:52.271 | INFO     | metagpt.provider.spark_api:on_message:118 - 本次通讯关闭
+2023-10-16 22:31:26.570 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:31:26.672 | INFO     | metagpt.provider.spark_api:send:162 - 开始尝试建立通讯...
+2023-10-16 22:31:26.673 | INFO     | metagpt.provider.spark_api:send:163 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:31:26.982 | INFO     | metagpt.provider.spark_api:on_message:105 - {"header":{"code":0,"message":"Success","sid":"cht000bf112@dx18b38e6656eb894540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:31:27.460 | INFO     | metagpt.provider.spark_api:on_message:120 - 本次通讯关闭
+2023-10-16 22:32:47.291 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:32:47.387 | INFO     | metagpt.provider.spark_api:send:162 - 开始尝试建立通讯...
+2023-10-16 22:32:47.387 | INFO     | metagpt.provider.spark_api:send:163 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:32:47.712 | INFO     | metagpt.provider.spark_api:on_message:105 - {"header":{"code":0,"message":"Success","sid":"cht000bff31@dx18b38e7a0b8b81c540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:32:48.134 | INFO     | metagpt.provider.spark_api:on_message:120 - 本次通讯关闭
+2023-10-16 22:33:24.934 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:33:25.028 | INFO     | metagpt.provider.spark_api:send:162 - 开始尝试建立通讯...
+2023-10-16 22:33:25.028 | INFO     | metagpt.provider.spark_api:send:163 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:33:25.322 | INFO     | metagpt.provider.spark_api:on_message:105 - {"header":{"code":0,"message":"Success","sid":"cht000bfac0@dx18b38e833c2b894540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:33:25.808 | INFO     | metagpt.provider.spark_api:on_message:120 - 本次通讯关闭
+2023-10-16 22:34:20.507 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:34:20.629 | INFO     | metagpt.provider.spark_api:send:160 - 开始尝试建立通讯...
+2023-10-16 22:34:20.630 | INFO     | metagpt.provider.spark_api:send:161 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:34:20.947 | INFO     | metagpt.provider.spark_api:on_message:103 - {"header":{"code":0,"message":"Success","sid":"cht000bfec9@dx18b38e90cf4b894540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:34:21.374 | INFO     | metagpt.provider.spark_api:on_message:118 - 本次通讯关闭
+2023-10-16 22:35:12.836 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-16 22:35:12.931 | INFO     | metagpt.provider.spark_api:send:162 - 开始尝试建立通讯...
+2023-10-16 22:35:12.931 | INFO     | metagpt.provider.spark_api:send:163 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-16 22:35:13.239 | INFO     | metagpt.provider.spark_api:on_message:105 - {"header":{"code":0,"message":"Success","sid":"cht000b07d3@dx18b38e9d942b8f3540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-16 22:35:13.693 | INFO     | metagpt.provider.spark_api:on_message:120 - 本次通讯关闭
+2023-10-17 07:51:49.489 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 07:51:49.677 | INFO     | metagpt.provider.spark_api:send:168 - 开始尝试建立通讯...
+2023-10-17 07:51:49.677 | INFO     | metagpt.provider.spark_api:send:169 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-17 07:51:49.980 | INFO     | metagpt.provider.spark_api:on_message:111 - {"header":{"code":0,"message":"Success","sid":"cht000b4277@dx18b3ae76fb6b81c540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-17 07:51:50.375 | INFO     | metagpt.provider.spark_api:on_message:126 - 本次通讯关闭
+2023-10-17 07:55:20.982 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 07:55:32.160 | INFO     | metagpt.provider.spark_api:send:168 - 开始尝试建立通讯...
+2023-10-17 07:55:32.160 | INFO     | metagpt.provider.spark_api:send:169 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-17 07:55:32.445 | INFO     | metagpt.provider.spark_api:on_message:111 - {"header":{"code":0,"message":"Success","sid":"cht000b40f4@dx18b3aead4ceb894540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-17 07:55:32.836 | INFO     | metagpt.provider.spark_api:on_message:126 - 本次通讯关闭
+2023-10-17 07:55:32.837 | DEBUG    | metagpt.provider.base_gpt_api:aask:45 - [{'role': 'system', 'content': 'You are a helpful assistant.'}, {'role': 'user', 'content': '只回答"收到了"这三个字。'}]
+2023-10-17 07:57:12.878 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 07:57:12.998 | INFO     | metagpt.provider.spark_api:send:168 - 开始尝试建立通讯...
+2023-10-17 07:57:12.998 | INFO     | metagpt.provider.spark_api:send:169 - 此次请求的请求头数据为：{"header": {"app_id": "ae5e30f4", "uid": "1234"}, "parameter": {"chat": {"domain": "generalv2", "max_tokens": 2048, "temperature": 0.5, "top_k": 4}}, "payload": {"message": {"text": [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "\u53ea\u56de\u7b54\"\u6536\u5230\u4e86\"\u8fd9\u4e09\u4e2a\u5b57\u3002"}]}}}
+2023-10-17 07:57:13.304 | INFO     | metagpt.provider.spark_api:on_message:111 - {"header":{"code":0,"message":"Success","sid":"cht000b4aaf@dx18b3aec5eb4b81c540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-17 07:57:13.696 | INFO     | metagpt.provider.spark_api:on_message:126 - 本次通讯关闭
+2023-10-17 07:57:38.088 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 07:57:38.483 | INFO     | metagpt.provider.spark_api:on_message:111 - {"header":{"code":0,"message":"Success","sid":"cht000b47a1@dx18b3aecc130b8f3540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-17 07:57:38.977 | INFO     | metagpt.provider.spark_api:on_message:126 - 本次通讯关闭
+2023-10-17 07:58:30.829 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 07:58:31.208 | INFO     | metagpt.provider.spark_api:on_message:111 - {"header":{"code":0,"message":"Success","sid":"cht000b45ea@dx18b3aed8f25b894540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-17 07:58:31.606 | INFO     | metagpt.provider.spark_api:on_message:126 - 本次通讯关闭
+2023-10-17 07:58:40.597 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 07:58:40.642 | DEBUG    | metagpt.provider.base_gpt_api:aask:45 - [{'role': 'system', 'content': 'You are a helpful assistant.'}, {'role': 'user', 'content': '只回答"收到了"这三个字。'}]
+2023-10-17 07:59:33.111 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 07:59:33.172 | DEBUG    | metagpt.provider.base_gpt_api:aask:45 - [{'role': 'system', 'content': 'You are a helpful assistant.'}, {'role': 'user', 'content': '只回答"收到了"这三个字。'}]
+2023-10-17 08:11:14.820 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 08:16:38.780 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 08:24:41.148 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 16:21:26.973 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 16:21:27.032 | WARNING  | metagpt.provider.spark_api:__init__:30 - 当前方法无法支持异步运行。当你使用acompletion时，并不能并行访问。
+2023-10-17 16:22:12.784 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 16:22:12.824 | WARNING  | metagpt.provider.spark_api:__init__:31 - 当前方法无法支持异步运行。当你使用acompletion时，并不能并行访问。
+2023-10-17 16:22:24.244 | INFO     | metagpt.provider.spark_api:on_message:112 - {"header":{"code":0,"message":"Success","sid":"cht000b815d@dx18b3cbae2b0b894540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-17 16:22:24.749 | INFO     | metagpt.provider.spark_api:on_message:127 - 本次通讯关闭
+2023-10-17 16:22:24.749 | DEBUG    | tests.metagpt.provider.test_xinghuo_api:test_message:8 - 收到了
+2023-10-17 16:22:25.118 | INFO     | metagpt.provider.spark_api:on_message:112 - {"header":{"code":0,"message":"Success","sid":"cht000b8850@dx18b3cbae615b81c540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"XXX","role":"assistant","index":0}]}}}
+2023-10-17 16:22:28.449 | INFO     | metagpt.provider.spark_api:on_message:127 - 本次通讯关闭
+2023-10-17 16:22:28.449 | DEBUG    | tests.metagpt.provider.test_xinghuo_api:test_message:9 - XXX
+2023-10-17 16:23:03.100 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 16:23:03.132 | WARNING  | metagpt.provider.spark_api:__init__:31 - 当前方法无法支持异步运行。当你使用acompletion时，并不能并行访问。
+2023-10-17 16:23:14.537 | INFO     | metagpt.provider.spark_api:on_message:112 - {"header":{"code":0,"message":"Success","sid":"cht000b8c2c@dx18b3cbba737b81c540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"收到了","role":"assistant","index":0}]}}}
+2023-10-17 16:23:14.961 | INFO     | metagpt.provider.spark_api:on_message:127 - 本次通讯关闭
+2023-10-17 16:23:14.962 | DEBUG    | tests.metagpt.provider.test_xinghuo_api:test_message:8 - 收到了
+2023-10-17 16:23:15.318 | INFO     | metagpt.provider.spark_api:on_message:112 - {"header":{"code":0,"message":"Success","sid":"cht000b87f2@dx18b3cbbaa35b8f3540","status":0},"payload":{"choices":{"status":0,"seq":0,"text":[{"content":"XXX","role":"assistant","index":0}]}}}
+2023-10-17 16:23:18.331 | INFO     | metagpt.provider.spark_api:on_message:127 - 本次通讯关闭
+2023-10-17 16:23:18.331 | DEBUG    | tests.metagpt.provider.test_xinghuo_api:test_message:9 - XXX
+2023-10-17 16:24:58.609 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 16:24:58.647 | WARNING  | metagpt.provider.spark_api:__init__:31 - 当前方法无法支持异步运行。当你使用acompletion时，并不能并行访问。
+2023-10-17 16:24:59.457 | INFO     | tests.metagpt.provider.test_xinghuo_api:test_message:8 - 收到了
+2023-10-17 16:25:03.094 | INFO     | tests.metagpt.provider.test_xinghuo_api:test_message:9 - XXX
+2023-10-17 16:35:40.075 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 16:35:40.115 | WARNING  | metagpt.provider.spark_api:__init__:31 - 当前方法无法支持异步运行。当你使用acompletion时，并不能并行访问。
+2023-10-17 16:35:52.127 | INFO     | tests.metagpt.provider.test_xinghuo_api:test_message:8 - 收到了
+2023-10-17 16:35:53.978 | INFO     | tests.metagpt.provider.test_xinghuo_api:test_message:9 - 好的
+2023-10-17 16:38:35.243 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 16:38:35.280 | WARNING  | metagpt.provider.spark_api:__init__:31 - 当前方法无法支持异步运行。当你使用acompletion时，并不能并行访问。
+2023-10-17 16:38:36.059 | INFO     | tests.metagpt.provider.test_xinghuo_api:test_message:8 - 。
+2023-10-17 16:38:37.000 | INFO     | tests.metagpt.provider.test_xinghuo_api:test_message:9 - 日记。
+2023-10-17 16:48:28.533 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-17 16:48:28.574 | WARNING  | metagpt.provider.spark_api:__init__:32 - 当前方法无法支持异步运行。当你使用acompletion时，并不能并行访问。
+2023-10-17 16:48:40.560 | INFO     | tests.metagpt.provider.test_xinghuo_api:test_message:8 - 收到了。
+2023-10-17 16:48:42.735 | INFO     | tests.metagpt.provider.test_xinghuo_api:test_message:9 - 好的，我将为您写一篇日记。请告诉我您希望这篇日记包含的内容、日期和地点等相关信息，以便我为您准备一篇符合要求的日记。
+2023-10-18 20:28:25.340 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-18 20:28:25.420 | WARNING  | metagpt.provider.spark_api:__init__:31 - 当前方法无法支持异步运行。当你使用acompletion时，并不能并行访问。
+2023-10-18 20:28:37.320 | INFO     | tests.metagpt.provider.test_spark_api:test_message:8 - 收到了。
+2023-10-18 20:28:38.437 | INFO     | tests.metagpt.provider.test_spark_api:test_message:9 - 好的，我将为您写一篇日记。
+2023-10-18 20:31:29.950 | INFO     | metagpt.config:__init__:44 - Config loading done.
+2023-10-18 20:31:29.984 | WARNING  | metagpt.provider.spark_api:__init__:31 - 当前方法无法支持异步运行。当你使用acompletion时，并不能并行访问。
+2023-10-18 20:31:41.921 | INFO     | tests.metagpt.provider.test_spark_api:test_message:8 - 收到了。
+2023-10-18 20:31:45.198 | INFO     | tests.metagpt.provider.test_spark_api:test_message:9 - 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.
